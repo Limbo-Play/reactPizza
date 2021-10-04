@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+.position {
+  display: flex;
+  flex-direction: column;
+}
+
+.coverPizza {
+  width: 430px;
+  height: 430px;
+}
+.coverPizza:hover {
+  opacity: 0.8;
+}
+.sizeOfPizza {
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+.parentDiv {
+  position: relative;
+  top: 40px;
+  left: 33px;
+}
+
+.nameAndAbout {
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  height: 185px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  top: 40px;
+  margin-left: 33px;
+  width: 430px;
+}
+
+.pizzaNameSpan {
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.pizzaAbout {
+  font-weight: 300px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #b2bec3;
+  width: 430px;
+  margin-top: 10px;
+}
+
+hr {
+  background-color: #6c5ce7;
+  width: 340px;
+  height: 1px;
+  margin-top: 15px;
+}
+
+.priceAmountAdd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 340px;
+  margin-left: 44px;
+}
+.buttonAdd {
+  background-color: #6c5ce7;
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #6c5ce7;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+}
+.buttonAdd:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.price {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #6c5ce7;
+}
+b {
+  color: #b2bec3;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.buttonPlus {
+  border-style: none;
+  background-color: #ffffff;
+  color: #6c5ce7;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.amountOfPizza {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+}
