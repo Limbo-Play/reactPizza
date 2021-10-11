@@ -12,10 +12,25 @@
 .coverPizza:hover {
   opacity: 0.8;
 }
+
 .sizeOfPizza {
   position: absolute;
   left: 20px;
   top: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  width: 50px;
+}
+.weightStyle {
+  color: #6c5ce7;
+  font-size: 16px;
+  font-weight: 700;
+}
+.sizeStyle {
+  color: #b2bec3;
+  font-size: 14px;
+  font-weight: 600;
 }
 .parentDiv {
   position: relative;
@@ -45,7 +60,9 @@
   font-size: 14px;
   line-height: 17px;
   color: #b2bec3;
-  width: 430px;
+  width: 340px;
+  height: 30px;
+  margin-left: 50px;
   margin-top: 10px;
 }
 
