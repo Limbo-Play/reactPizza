@@ -18,7 +18,6 @@ function Result() {
   }, [])
   return (
     <div className="pizzaPosition">
-      <Header/>
       {pizzas.length > 0 ? (
         pizzas.map((el, index) => (
             <Pizza

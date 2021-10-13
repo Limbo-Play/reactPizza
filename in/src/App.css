@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap");
 
 .pizzaPosition {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-left: 36.75px;
+  width: 1440px;
 }

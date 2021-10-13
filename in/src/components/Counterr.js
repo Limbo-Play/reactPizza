@@ -23,7 +23,7 @@ export default class Counterr extends Component {
     let { count } = this.state;
     return (
 
-          <div class="buttons">
+          <div className="buttons">
             <button className="buttonPlus" onClick={this.incrementCount}>+</button>
                 <span>{count}</span>
             <button className="buttonPlus" onClick={this.decrementCount}>-</button>

@@ -5,7 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux'
 import store from './redux/index.js';
-import Counter from './components/Counter'
 
 ReactDOM.render(
   <React.StrictMode>

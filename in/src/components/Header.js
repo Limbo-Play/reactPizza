@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Logo.png';
 import './Cart.png';
 import './Components.css';
 
 
 function Header() {
+
+
     return (
     <header className="header">
         <div className="omgLogo">
@@ -16,7 +18,7 @@ function Header() {
           
         </div>
         <div className="sumAndCart">
-          <img className="cart" src="Cart.png" alt="cart"></img>
+          <button className="cart"><img src="Cart.png" alt="cart"/></button>
           <span>0 UAH</span>
          </div>
     </header>
@@ -24,3 +26,4 @@ function Header() {
 }
 
 export default Header;
+

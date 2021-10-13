@@ -2,7 +2,7 @@
 
 header {
   background: #ffffff;
-  width: 100%;
+  width: 1440px;
   height: 115px;
   display: flex;
   justify-content: space-between;
@@ -55,6 +55,8 @@ header {
   width: 36px;
   height: 36px;
   margin-bottom: 5px;
+  background: none;
+  border: none;
 }
 
 .cart:hover {
@@ -71,7 +73,6 @@ header {
   font-weight: 500;
   font-size: 18px;
   text-align: center;
-  margin-right: 49px;
   justify-content: center;
   align-items: center;
 }

@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+.selectedPizzaPosition {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.nameAndCountPizza {
+  font-size: 24px;
+  font-weight: 300;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.weightAndPrice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #6c5ce7;
+}
+
+.selectedInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+}
+.closeImg {
+  width: 10px;
+  height: 10px;
+  margin: 10px 10px;
+}
+.cartHr {
+  width: 545px;
+}

@@ -1,0 +1,14 @@
+.positionInOrder {
+  height: 45px;
+  width: 570px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 36px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.positionInOrder img {
+  width: 15px;
+  height: 15px;
+}
